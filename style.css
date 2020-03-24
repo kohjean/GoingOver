@@ -3,6 +3,7 @@ html {
   margin: auto;
   background: -webkit-gradient(linear, left top, left bottom, from(#ff0), to(#f8a529)) !important;
   background: linear-gradient(#ff0, #f8a529) !important;
+  color: red !important;
 }
 
 html b {
