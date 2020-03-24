@@ -1,10 +1,22 @@
 html {
   width: 80%;
   margin: auto;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ff0), to(#f8a529)) !important;
+  background: linear-gradient(#ff0, #f8a529) !important;
+}
+
+html b {
+  color: #ff0 !important;
+}
+
+html td {
+  color: #ff0 !important;
+  margin: 0 auto !important;
+  border: 1px solid #333 !important;
 }
 
 h1 {
-  color: red;
-  text-align: center;
+  color: red !important;
+  text-align: center !important;
 }
 /*# sourceMappingURL=style.css.map */
