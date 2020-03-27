@@ -25,13 +25,13 @@ img {
   opacity: 0;
 }
 
-body table tbody tr:first-child td:first-child {
+body + table tbody tr:first-child td:first-child {
   cursor: pointer;
   position: relative;
   /*   background: #00f; */
 }
 
-body table tbody tr:first-child td:first-child::before {
+body + table tbody tr:first-child td:first-child::before {
   content: '';
   position: absolute;
   top: 20px;
