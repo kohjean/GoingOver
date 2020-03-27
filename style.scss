@@ -20,18 +20,23 @@ h1 {
   color: red !important;
   text-align: center !important;
 }
-
-body>tbody>table>tbody>tr:first-child>td:first-child {
+img {
+  opacity: 0;
+}
+body > table > tbody > tr:first-child > td:first-child {
   cursor: pointer;
-  background-color: #0ff !important;
+  position: relative;
 }
 
-body>table>tbody>tr:first-child>td:first-child::before {
+body + tbody table tbody tr:first-child  td:first-child {
   content: '';
+  position: absolute;
+  top: 20px;
+  left: 50%;
   display: inline-block;
   width: 276px;
   height:350px;
-  background-image: url(http://abehiroshi.la.coocan.jp/nonno/1987-6.jpg);
+  background-image: url(http://abehiroshi.la.coocan.jp/nonno/1987-6.jpg) / cover fixed;
 }
 
 /* img::after {
