@@ -22,14 +22,18 @@ h1 {
 }
 
 img {
-  opacity: 1;
+  /*   opacity: ; */
+  z-index: 1;
 }
 
 img::after {
+  content: '';
   background-image: url("http://abehiroshi.la.coocan.jp/nonno/1987-6.jpg");
   display: inline-block;
   width: 300px;
   height: 300px;
+  background-color: aliceblue;
+  z-index: 2;
 }
 
 /* img::after {
