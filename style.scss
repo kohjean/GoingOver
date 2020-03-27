@@ -21,26 +21,17 @@ h1 {
   text-align: center !important;
 }
 
-body>table>tbody>tr>td {
-  position: relative;
-}
-img {
-  position: absolute;
-  top: 0;
-  left: 0;
+body>tbody>table>tbody>tr:first-child>td:first-child {
+  cursor: pointer;
+  background-color: #0ff !important;
 }
 
-img::after {
-  position: absolute;
-  top: 0;
-  left: 0;
+body>table>tbody>tr:first-child>td:first-child::before {
   content: '';
-  background-image: url("http://abehiroshi.la.coocan.jp/nonno/1987-6.jpg");
-  display: inline-block; 
-  width: 300px;
-  height: 300px; 
-  background-color: aliceblue;
-  z-index: 2;
+  display: inline-block;
+  width: 276px;
+  height:350px;
+  background-image: url(http://abehiroshi.la.coocan.jp/nonno/1987-6.jpg);
 }
 
 /* img::after {
