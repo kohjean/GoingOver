@@ -21,13 +21,19 @@ h1 {
   text-align: center !important;
 }
 
+body>table>tbody>tr>td {
+  position: relative;
+}
 img {
-/*   opacity: ; */
-  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
-
 img::after {
+  position: absolute;
+  top: 0;
+  left: 0;
   content: '';
   background-image: url("http://abehiroshi.la.coocan.jp/nonno/1987-6.jpg");
   display: inline-block; 
