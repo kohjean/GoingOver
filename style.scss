@@ -23,17 +23,16 @@ h1 {
 img {
   opacity: 0;
 }
-body > table > tbody > tr:first-child td:first-child {
+body > table > tbody > tr:first-child > td:first-child {
   cursor: pointer;
   position: relative;
-/*   background: #00f; */
 }
 
-body > table > tbody > tr:first-child  td:first-child::after {
+body > table > tbody > tr:first-child > td:first-child::after {
   content: '';
   position: absolute;
-  top: 20px;
-  left: 0;
+  top: 27px;
+  left: 40px;
   display: inline-block;
   width: 276px;
   height:350px;
