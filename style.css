@@ -1,24 +1,26 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/earlyaccess/nikukyu.css);
 html {
   width: 80%;
   margin: auto;
   background: -webkit-gradient(linear, left top, left bottom, from(#ff0), to(#f8a529)) !important;
   background: linear-gradient(#ff0, #f8a529) !important;
-  color: red !important;
-}
-
-html b {
-  color: #000 !important;
-}
-
-html td {
-  color: #000 !important;
-  margin: 0 auto !important;
-  border: 1px solid #333 !important;
 }
 
 h1 {
-  color: red !important;
   text-align: center !important;
+  font-family: "Hiragino Sans","ヒラギノ角ゴシック";
+  font-weight: 7600;
+  font-style: italic;
+  margin: 0;
+  -webkit-transform: scale(0.8, 1.2);
+          transform: scale(0.8, 1.2);
+}
+
+h1:first-letter {
+  font-size: 5rem;
+  font-style: initial;
+  font-weight: 900;
 }
 
 img {
@@ -39,6 +41,10 @@ body > table > tbody > tr:first-child > td:first-child::after {
   width: 276px;
   height: 350px;
   background-image: url(http://abehiroshi.la.coocan.jp/nonno/1987-6.jpg);
+}
+
+strong {
+  font-family: "Nikukyu";
 }
 
 /* img::after {
