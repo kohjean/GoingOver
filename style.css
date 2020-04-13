@@ -1,7 +1,8 @@
 @charset "UTF-8";
-@import url(https://fonts.googleapis.com/earlyaccess/nikukyu.css);
+@import url(https://fonts.googleapis.com/earlyaccess/nicomoji.css);
 html {
   width: 80%;
+  font-family: "Nico Moji";
   margin: auto;
   background: -webkit-gradient(linear, left top, left bottom, from(#ff0), to(#f8a529)) !important;
   background: linear-gradient(#ff0, #f8a529) !important;
@@ -43,11 +44,4 @@ body > table > tbody > tr:first-child > td:first-child::after {
   background-image: url(http://abehiroshi.la.coocan.jp/nonno/1987-6.jpg);
 }
 
-strong {
-  font-family: "Nikukyu";
-}
-
-/* img::after {
-  background-image: url("http://abehiroshi.la.coocan.jp/nonno/1987-6.jpg";)
-} */
 /*# sourceMappingURL=style.css.map */
